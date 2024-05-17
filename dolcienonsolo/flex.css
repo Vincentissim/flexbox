@@ -1,0 +1,125 @@
+body, main, section, div, p, h1, h2, button{
+    margin: 0;
+}
+body{
+    background-color: rgb(193, 208, 222);
+}
+header{
+    background-color: rgb(83, 106, 114);
+    padding: 20px;
+   
+
+
+}
+
+.container{
+   
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin:  auto;
+   
+}
+ul{
+    list-style-type: none;
+}
+.img{
+    
+    display: flex;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+
+
+}
+a img{
+    width: 20px;
+    
+}
+
+.testa{
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+main{
+    background-color: lightcoral;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    /* justify-content: center; */
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    
+}
+
+    
+
+.card{
+    background-color: white;
+    font: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    width: calc((100% - 30px) / 3);
+   
+
+}
+@media only screen and (max-width: 500px) {
+    .card{
+        width: calc((100% - 20px) / 2);
+    }
+    } 
+.immagine-marmellata{
+    background-image: url("img/marmellata.png");
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+}
+.testo{
+    padding: 20px;
+}
+.immagine-nutella{
+    background-image: url("img/nutella.png");
+    height: 180px;
+    background-position: center center ;
+    background-size: cover;
+}
+.immagine-sfoglia{
+    background-image: url("img/sfogliatella.png");
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+}
+button{
+    background-color:rgb(46 77 76) ;
+    border-radius: 25px;
+    display: flex;
+    color: white;
+    margin-left: auto;
+
+}
+.immagine-panspagna{
+    background-image: url("img/pan-di-spagna.png");
+    height: 180px;
+    background-position: center center;
+    background-size:cover ;
+}
+.immagine-frolla{
+    background-image: url("img/pasta-frolla.png");
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+}
+.immagine-baba{
+    background-image: url("img/baba.png");
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+}
